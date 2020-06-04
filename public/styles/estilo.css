@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, rgb(99, 20, 151),rgb(15, 62, 100),rgb(23, 97, 158), rgb(21, 119, 103) );
+}
+h1{
+    text-align: center;
+    color: rgb(250, 135, 189);
+}
+img{
+    width: 200px; height: 350px;
+}
+h3{
+    color: ivory;
+    text-align: center;
+}
+h2{
+    color: rgb(182, 255, 243);
+    text-align: center;
+}
+p{
+    color:rgb(240, 245, 168);
+    font-family: Vijaya;
+    font-size: 200%;
+    text-align: none;
+}
+h4{
+    color: rgb(238, 17, 17);
+}
+h5{
+    color: peachpuff;
+    text-align: center;
+}
+table{
+    position:center;
+    left: 150%;
+   margin-left: 100px;
+   top: 150%;
+   margin-top: 55px;
+ }
