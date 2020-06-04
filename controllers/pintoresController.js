@@ -1,5 +1,5 @@
 let mongoose=require('mongoose');
-let pintores=require('/models/series');
+let pintores=require('../models/pintores');
 
 let pintoresController={};
 
@@ -11,7 +11,7 @@ pintoresController.list=(req,res)=>{
         if (err){
             console.log('Error:',err)
         }
-        res.render('/views/pintor/index',{
+        res.render('../views/index',{
             pintores:pintores,
             titulo:"Listado de pintores",
             year: new Date().getDate()
